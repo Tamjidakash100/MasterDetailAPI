@@ -43,7 +43,6 @@ namespace MasterDetailAPI.Controllers
         }
 
         // PUT: api/Order/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(int id, Order order)
         {
